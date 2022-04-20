@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;800&display=swap" rel="stylesheet">
+    <title>Flexbox</title>
+</head>
+
+<body>
+    <!-- header -->
+    <header class="header">
+        <div class="container">
+            <h1 class="topic">
+                Flexbox.
+            </h1>
+            <h3 class="myName">
+                Christian Marín.
+            </h3>
+        </div>
+    </header>
+
+    <!-- table -->
+    <main class="table">
+        <!-- table display -->
+        <table class="tableSkeleton">
+            <thead class="tableHead">
+                <th>Display</th>
+            </thead>
+            <tbody class="tableBody">
+                <tr class="textFlexbox">
+                    <td>
+                        <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout"
+                            target="_blank">
+                            flex
+                        </a>
+                    </td>
+                </tr>
+                <tr class="textFlexbox">
+                    <td>
+                        <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout"
+                            target="_blank">
+                            inline-flex
+                        </a>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+
+        <hr />
+
+        <!-- table -->
+        <table class="tableSkeleton">
+            <thead class="tableHead">
+                <tr>
+                    <th>
+                        Direction
+                    </th>
+                </tr>
+            </thead>
+            <tbody class="tableBody">
+                <tr class="textFlexbox">
+                    <td>
+                        <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/flex-direction" target="_blank">
+                            'flex-direction'
+                        </a>
+                    </td>
+                </tr>
+                <tr class="textFlexbox">
+                    <td>
+                        <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/flex-wrap" target="_blank">
+                            'flex-wrap'
+                        </a>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+
+        <hr />
+
+        <!-- table -->
+        <table class="tableSkeleton">
+            <thead class="tableHead">
+                <tr>
+                    <th>
+                        'flex-direction'
+                    </th>
+                    <th>
+                        'flex-wrap'
+                    </th>
+                </tr>
+            </thead>
+            <tbody class="tableBody">
+                <tr class="textFlexbox">
+                    <td>
+                        <a href="#">
+                            row
+                        </a>
+                    </td>
+                    <td>
+                        <a href="#">
+                            wrap
+                        </a>
+                    </td>
+                </tr>
+                <tr class="textFlexbox">
+                    <td>
+                        <a href="#">
+                            row-reverse
+                        </a>
+                    </td>
+                    <td>
+                        <a href="#">
+                            wrap-reverse
+                        </a>
+                    </td>
+                </tr>
+                <tr class="textFlexbox">
+                    <td>
+                        <a href="#">
+                            column
+                        </a>
+                    </td>
+                </tr>
+                <tr class="textFlexbox">
+                    <td>
+                        <a href="#">
+                            column-reverse
+                        </a>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+
+        <hr />
+
+        <!-- table -->
+        <table class="tableSkeleton">
+            <thead class="tableHead">
+                <tr>
+                    <th>
+                        Alignment
+                    </th>
+                </tr>
+            </thead>
+            <tbody class="tableBody">
+                <tr class="textFlexbox">
+                    <td>
+                        <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/justify-content" target="_blank">
+                            'justify-content'
+                        </a>
+                    </td>
+                </tr>
+                <tr class="textFlexbox">
+                    <td>
+                        <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/align-self" target="_blank">
+                            'align-self'
+                        </a>
+                    </td>
+                </tr>
+                <tr class="textFlexbox">
+                    <td>
+                        <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/align-items" target="_blank">
+                            'align-items'
+                        </a>
+                    </td>
+                </tr>
+                <tr class="textFlexbox">
+                    <td>
+                        <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/align-content" target="_blank">
+                            'align-content'
+                        </a>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+
+        <hr />
+
+        <!-- table -->
+        <table class="tableSkeleton">
+            <thead class="tableHead">
+                <tr>
+                    <th>
+                        'justify-content'
+                    </th>
+                    <th>
+                        'align-self'
+                    </th>
+                    <th>
+                        'align-items'
+                    </th>
+                    <th>
+                        'align-content'
+                    </th>
+                </tr>
+            </thead>
+            <tbody class="tableBody">
+                <tr class="textFlexbox">
+                    <td>
+                        <a href="#">
+                            flex-start
+                        </a>
+                    </td>
+                    <td>
+                        <a href="#">
+                            flex-start
+                        </a>
+                    </td>
+                    <td>
+                        <a href="#">
+                            flex-start
+                        </a>
+                    </td>
+                    <td>
+                        <a href="#">
+                            flex-start
+                        </a>
+                    </td>
+                </tr>
+                <tr class="textFlexbox">
+                    <td>
+                        <a href="#">
+                            flex-end
+                        </a>
+                    </td>
+                    <td>
+                        <a href="#">
+                            flex-end
+                        </a>
+                    </td>
+                    <td>
+                        <a href="#">
+                            flex-end
+                        </a>
+                    </td>
+                    <td>
+                        <a href="#">
+                            flex-end
+                        </a>
+                    </td>
+                </tr>
+                <tr class="textFlexbox">
+                    <td>
+                        <a href="#">
+                            center
+                        </a>
+                    </td>
+                    <td>
+                        <a href="#">
+                            center
+                        </a>
+                    </td>
+                    <td>
+                        <a href="#">
+                            center
+                        </a>
+                    </td>
+                    <td>
+                        <a href="#">
+                            center
+                        </a>
+                    </td>
+                </tr>
+                <tr class="textFlexbox">
+                    <td>
+                        <a href="#">
+                            space-between
+                        </a>
+                    </td>
+                    <td>
+                        <a href="#">
+                            stretch
+                        </a>
+                    </td>
+                    <td>
+                        <a href="#">
+                            stretch
+                        </a>
+                    </td>
+                    <td>
+                        <a href="#">
+                            space-between
+                        </a>
+                    </td>
+                </tr>
+                <tr class="textFlexbox">
+                    <td>
+                        <a href="#">
+                            space-around
+                        </a>
+                    </td>
+                    <td>
+                        <a href="#">
+                            baseline
+                        </a>
+                    </td>
+                    <td>
+                        <a href="#">
+                            baseline
+                        </a>
+                    </td>
+                    <td>
+                        <a href="#">
+                            space-around
+                        </a>
+                    </td>
+                </tr>
+                <tr class="textFlexbox">
+                    <td>
+                        <a href="#">
+                            space-evenly
+                        </a>
+                    </td>
+                    <td>
+                        <a href="#">
+                            auto
+                        </a>
+                    </td>
+                    <td></td>
+                    <td>
+                        <a href="#">
+                            stretch
+                        </a>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+
+        <hr />
+
+        <!-- table -->
+        <table class="tableSkeleton">
+            <thead class="tableHead">
+                <tr>
+                    <th>
+                        Child properties
+                    </th>
+                </tr>
+            </thead>
+            <tbody class="tableBody">
+                <tr class="textFlexbox">
+                    <td>
+                        <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/flex-grow" target="_blank">
+                            'flex-grow'
+                        </a>
+                    </td>
+                </tr>
+                <tr class="textFlexbox">
+                    <td>
+                        <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/flex-shrink" target="_blank">
+                            'flex-shrink'
+                        </a>
+                    </td>
+                </tr>
+                <tr class="textFlexbox">
+                    <td>
+                        <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/flex-basis" target="_blank">
+                            'flex-basis'
+                        </a>
+                    </td>
+                </tr>
+                <tr class="textFlexbox">
+                    <td>
+                        <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/order" target="_blank">
+                            'order'
+                        </a>
+                    </td>
+                </tr>
+                <tr class="textFlexbox">
+                    <td class="shortcut">
+                        <span class="shortcut-icon">
+                            💡
+                        </span>
+                        <div class="shortcut-p">
+                            <p>
+                                flex: /flex-grow/ /flex-shrink/ /flex-basis/
+                            </p>
+                        </div>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+
+        <hr />
+
+        <!-- table -->
+        <table class="tableSkeleton">
+            <thead class="tableHead">
+                <tr>
+                    <th>
+                        Gaps
+                    </th>
+                </tr>
+            </thead>
+            <tbody class="tableBody">
+                <tr class="textFlexbox">
+                    <td>
+                        <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/row-gap" target="_blank">
+                            'row-gap'
+                        </a>
+                    </td>
+                </tr>
+                <tr class="textFlexbox">
+                    <td>
+                        <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/column-gap" target="_blank">
+                            'column-gap'
+                        </a>
+                    </td>
+                </tr>
+                <tr class="textFlexbox">
+                    <td class="shortcut">
+                        <span class="shortcut-icon">
+                            💡
+                        </span>
+                        <div class="shortcut-p">
+                            <p>
+                                gap: /row/ /column/ ~ /row & column/
+                            </p>
+                        </div>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </main>
+
+    <!-- footer -->
+    <footer class="footer">
+        <p class="footText">
+            Made by, <span>Christian Marín.</span>
+        </p>
+    </footer>
+</body>
+
+</html>
